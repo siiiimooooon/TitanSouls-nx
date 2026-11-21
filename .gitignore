@@ -1,0 +1,56 @@
+# Game data: never in the repository
+*.apk
+*.xapk
+*.obb
+*.so
+game/
+assets_juego/
+dumps/
+
+# Builds
+build/
+out/
+*.nro
+*.elf
+*.nacp
+*.nso
+*.npdm
+*.dksh
+*.lst
+*.map
+
+# Logs and screenshots
+logs/
+capturas/
+screenshots/
+*.jpg
+*.png
+*.mp4
+
+# Cloned references
+ref/
+
+# Local config (the console's IP) and personal notes
+tools/switch_ftp.json
+CLAUDE.local.md
+
+# Misc
+__pycache__/
+*.pyc
+.vs/
+.vscode/
+
+# Port build outputs
+out/
+port/portlibs32
+port/*.nsp
+port/build/
+port/launcher/build/
+port/launcher/romfs/
+port/launcher/*.nro
+!port/launcher/icon.jpg
+tools/dl/
+bench/
+
+# Local Claude Code config
+.claude/

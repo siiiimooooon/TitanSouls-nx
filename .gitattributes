@@ -1,0 +1,11 @@
+# Scripts that run on Linux (WSL/Docker) must keep LF line endings
+*.sh text eol=lf
+*.mk text eol=lf
+Makefile text eol=lf
+*.c text eol=lf
+*.h text eol=lf
+*.S text eol=lf
+*.py text eol=lf
+*.cfg text eol=lf
+# Windows .bat files, with CRLF
+*.bat text eol=crlf
